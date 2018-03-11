@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700');
+@import url('https://fonts.googleapis.com/css?family=Abel');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+@import url('https://fonts.googleapis.com/css?family=Raleway:300i,500');
+body{
+    margin: 0px;
+    overflow-x: hidden;
+}
+#navbar{
+    margin: 0px auto;
+    padding: 0px;
+    height: 75px;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    color: green;
+}
+#container{
+    margin: 0px;
+    height: 75px;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    padding:10px 8px 10px 15px;
+}
+.logo{
+    margin:0px;
+    float:left;
+    height: 60px;
+    padding: 5px 4px 10px 30px;
+}
+#head{
+    color: green;
+    float:left;
+    margin: 0px; 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    padding: 0px 15px 15px 5px;
+}
+#h2{
+    padding: 17px 15px 15px 5px; 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color: green;
+    float:left;
+    margin: 0px;
+}
+ul li
+{
+    display: inline;
+    float:left;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color:green;
+    padding:10px 8px 10px 15px;
+}
+#link{
+    text-decoration: none;
+    padding: 10px 8px 10px 15px;
+    color:green;
+}
+#link:hover{
+    color:orangered;
+    padding :10px 8px 10px 15px;
+}
+.bg-1 { 
+      background-color: #fdff00; /* Green */
+      color: #ffffff;
+    margin: 0px;
+  }
+#image{
+    margin-top: 90px;
+    margin-bottom: 50px;
+    padding: 0px;
+    float: left;
+    display:inline;float:left;
+    width:450px ;
+    height:380px;
+}
+.quote{
+    font-family: 'Abel', sans-serif;
+    font-size: 30px;
+    color: #FA6D58;
+    margin:15% 30px 10px 20%;
+    /*background-color: rgba(0,5,3,0.4);*/
+    display: inline-block;
+    padding : 30px;
+}
+.bg-2{
+  /* background-color: #00d2ff;*/
+    background-color: #00d2ff;
+    color:white;
+    padding-bottom:5px;
+    padding-top:10px;
+}
+.content1{
+    display: inline-block;
+}
+#a1{
+    width:30%;
+    height:30%;
+    display: inline-block;
+    margin-bottom: 8%;
+    margin-top: 2%;
+}
+#a1h2{
+    padding-left: 8%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+     color: black;
+}
+#p1{
+    padding-left: 9%;
+    font-size: 20px; 
+    font-family: 'Slabo 27px',serif;
+}
+#a2{
+    width:36%;
+    height:36%;
+    display: inline-block;
+    margin-bottom: 8%;
+    margin-top: 2%;
+}
+#a2h2{
+    padding-left: 8%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+     color: black;
+}
+#p2{
+    padding-left: 9%;
+    font-size: 20px;  
+    font-family: 'Slabo 27px',serif;;
+}
+#a3{
+    width:30%;
+    height:30%;
+    display: inline-block;
+    margin-bottom: 8%;
+    margin-top: 2%;
+}
+.bg-3{
+    background-color: #00d2ff;
+    color:white;
+}
+.content2{
+    /*margin-top:-5%;
+    padding-left:25px;*/
+    display: inline;
+}
+#a21{
+    width:32%;
+    height:32%;
+  /* margin-top:-5%;*/
+    display: inline-block;
+    margin-bottom: 8%;
+    margin-top: 2%;
+}
+#a21h2{
+    padding-left: 8%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    color: black;
+}
+#p21{
+    padding-left: 9%;
+    font-size: 20px; 
+    font-family: 'Slabo 27px',serif;
+}
+#a22{
+    width:32%;
+    height:32%;
+   /*margin-top:-5%;*/
+    display: inline-block;
+    margin-bottom: 8%;
+    margin-top: 2%;
+}
+#a22h2{
+    padding-left: 8%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    color: black;
+}
+#p22{
+    padding-left: 9%;
+    font-size: 20px; 
+    font-family: 'Slabo 27px',serif;
+}
+#a32{
+    width:33%;
+    height:33%;
+    display: inline-block;
+    margin-bottom: 8%;
+    margin-top: 2%;
+}
+footer{
+    background-color: rgba(0,0,0,0.7);
+    height: 15%;
+    margin-bottom:-10px;
+}
+#demo1{
+    padding: 15px 15px 15px 10px;
+    margin-left: 25px;
+}
+.demo{
+    padding: 15px 15px 15px 10px;
+    color:whitesmoke;
+    margin: 0px;
+    text-align: center;
+}
+.details{
+    list-style-type: none;
+    float:left;
+    padding:7px 5px 8px 8px;
+    display: inline;
+}
+#foot{
+    color:aliceblue;
+    margin-bottom: 0px;
+}
+#foot:hover{
+    text-decoration: none;
+    color:cadetblue;
+    margin-bottom: 0px;
+}
+.list{
+    display: inline;
+    font-family:'Montserrat', sans-serif;;
+    font-size: 18px;
+    color:white;
+    padding:15px 10px;
+    margin-bottom: 0px;
+}
+#pic{
+    float:right;
+    width: 25px;
+    height: 25px;
+    margin-top: -25px;
+    margin-right: 90px;
+}
+#pic1{
+    float:right;
+    width: 25px;
+    height: 25px;
+    margin-top: -25px;
+    margin-right: 50px;
+}
+#pic2{
+    float:right;
+    width: 25px;
+    height: 25px;
+    margin-top: -25px;
+    margin-right: 10px;
+}

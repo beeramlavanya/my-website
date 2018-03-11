@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>myhealthy food website</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link href="fruitstypes.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+                 <nav class="navbar navbar-default navbar-fixed-top" id="navbar">
+                 <div class="container-fluid" id="container">
+                     <div class="navbar-header" id="head">
+                        <img src="download.jpg" alt="hello" class="logo">
+                        <h2 class="navbar-brand" id="h2">Fruits & Veggies</h2>
+                      </div>
+                        <ul class="nav navbar-nav" id="bodylist">
+                            <li><a id="link" href="index.html">Home</a></li>
+                            <li><a id="link" href="aboutme.html">About Me</a></li>
+                            <li><a id="link" href="contact.html">Contact</a></li>
+                            <li class="dropdown">
+                                <a id="link" class="dropdown-toggle" data-toggle="dropdown">Fruits&Veggies<span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a id="link" href="fruits.html">Fruits</a></li>
+                                        <li><a id="link" href="veggies.html">Veggies</a></li>
+                                    </ul>
+                             </li>
+                            <li><a id="link" href="nuts.html">Nuts</a>
+                            </li>
+                        </ul>
+                </div>
+            </nav>
+        </header>
+        <!--carousel-->
+<div class="container">
+        <div class="carousel slide" data-ride="carousel" id="my">
+            <!--indicators-->
+            <ol class="carousel-indicators">
+                <li data-target="#my" data-slide-to="0" class="active"></li>
+                <li data-target="#my" data-slide-to="1"></li>
+                <li data-target="#my" data-slide-to="2"></li>
+                <li data-target="#my" data-slide-to="3"></li>
+                <li data-target="#my" data-slide-to="4"></li>
+            </ol>
+            <!--wrapper for slides-->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="almondtree.jpg" alt="h" width="1350px" height="30px">
+                    <div class="carousel-caption">
+                        <h1>Almonds</h1>
+                        <h3>Happiness is a mango tree</h3>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="Pistachio-Fruits.jpg" alt="w" width="1500px" height="100px">
+                    <div class="carousel-caption">
+                        <h1>Pistachios</h1>
+                        <h3>A little lemon juice make everything taste better</h3>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="cashew-fruit-317295_1920.jpg" alt="e" width="1500px">
+                    <div class="carousel-caption">
+                        <h1>Cashews</h1>
+                        <h3>Licking the palm for guava</h3>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="figtree.jpg" alt="e" width="1800px" height="100px">
+                    <div class="carousel-caption">
+                        <h1>Figs</h1>
+                        <h3>There are good days and there are grape days</h3>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="Walnut_nut_and_leave_detail.JPG" alt="e" width="1800px" height="100px">
+                    <div class="carousel-caption">
+                        <h1>Walnuts</h1>
+                        <h3>There are good days and there are grape days</h3>
+                    </div>
+                </div>
+            </div>
+            <!--left right controls-->
+            <a class="left carousel-control" href="#my" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#my" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">next</span>
+            </a>
+        </div>
+    </div>
+        <div class="container-fluid bg-1">
+            <div class="container-fluid bg-2">
+               <img src="alomds123.jpg" alt="almonds" id="img1">
+                <h1 id="apple">Almonds</h1>
+            </div>
+            <div class="container-fluid bg-3 text-center">
+                <h2 id="benifits">Benifits</h2>
+                <ul id="benlist">
+                    <div class="row">
+                        <div class="col-md-6" id="bulletlist1">
+                    <li>Prevent constipation</li>
+                    <li>Lowers the risk of colon Cancer</li>
+                    <li>Helps in brain development and prevent Alzheimer's diseases</li>
+                    <li>Boosts energy and immune system</li>
+                    <li>Prevent Osteoporosis and bone health</li>
+                        </div>
+                        <div class="col-md-6" id="bulletlist2">
+                    <li>Control Diabetes</li>
+                    <li>Prevent Heart Diseases</li>
+                    <li>Helps in weight loss</li>
+                    <li>Nourish skin and Improves skin complexion</li>
+                    <li>Maintain healthy cholesterol levels and regulate blood pressure</li>
+                        </div>
+                    </div>
+                </ul>
+            </div>
+              <div class="container-fluid bg-3">
+                <div class="row">
+                    <div class="col-md-6">
+                <h2 id="what">What are Almonds</h2>
+                <p id="whatcon">Almonds are the seeds of the fruits cultivated from the almond tree. The scientific name of these dry fruits is Prunus dulcis and they are native to the Middle East, India, and North Africa. They are now found in places like Iran, Saudi Arabia, Lebanon, Turkey, Syria, Jordan, and Israel as well. The taste of almonds ranges from sweet to bitter and both are readily available in markets.<br>Sweet almonds are edible, while bitter ones are used for making oil, a common oil that is used to add flavor to the food.</p>
+                    </div>
+                    <div class="col-md-6" id="nutricon">
+                <h2 id="nutrition">Nutrition Value</h2>
+                <p id="nutri">Serving size: 1 ounce (28 g)</p>
+                <ul id="nutrilist">
+                    <li>Total Fat 2g (3%)</li>
+                    <li>Total Carbohydrate 12g (4%)</li>
+                    <li>Cholosterol 10mg (4%)</li>
+                    <li>Sugars 12g</li>
+                    <li>Sodium 125mg (5%)</li>
+                    <li>Protein 11g</li>
+                    <li>Vitamin A (10%)</li>
+                    <li>Calcium (30%)</li>
+                </ul>
+                    </div>
+                  </div>
+            </div>
+            <div class="container-fluid bg-4">
+                <div class="row">
+                    <div class="col-md-4">
+            <h2 id="final">To Look For</h2>
+            <p id="finalcon">Look for fresh almonds which are not much dried</p>
+                    </div>
+                     <div class="col-md-4">
+                <h2 id="final">To Store</h2>
+                <p id="finalcon">Packaged natural almonds can be stored in unopened packages in a cool, dark place up to 2 years.</p>
+                    </div>
+                     <div class="col-md-4">
+                <h2 id="final">To Prepare</h2>
+                <p id="finalcon">Wash and you take it raw or you can roast them.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+                <div class="container-fluid bg-1">
+            <div class="container-fluid bg-2">
+                <img src="pistachios.jpg" alt="pista" id="img1">
+                <h1 id="apple">Pistachios</h1>
+                    </div>
+                    <div class="container-fluid bg-3 text-center">
+                        <h2 id="benifits">Benifits</h2>
+                <ul id="benlist">
+                    <div class="row">
+                        <div class="col-md-6" id="bulletlist1">
+                    <li>Boosts immune system</li>
+                    <li>Gives relief from Constipation</li>
+                    <li>Reduces risk of heart attacks & strokes</li>
+                        </div>
+                        <div class="col-md-6" id="bulletlist2">
+                    <li>useful in treating cancer & asthma</li>
+                    <li>Boosts digestion , intestinal & metabolism</li>
+                    <li>Aids in wound healing & cellular growth</li>
+                        </div>
+                    </div>
+                </ul>
+                    </div>
+                      <div class="container-fluid bg-3">
+                <div class="row">
+                    <div class="col-md-6">
+                <h2 id="what">What Are Pistachios</h2>
+                <p id="whatcon">Pistachios are one of the oldest edible nuts and are commonly used all over the world. They are native to Asia, particularly Iran and Iraq. Archaeological evidence dates the association of pistachios and man as early as 6,000 BC. They were cultivated in Iran, Iraq, and Syria and were introduced to the Romans only in 100 AD.</p>
+                    </div>
+                    <div class="col-md-6" id="nutricon">
+                <h2 id="nutrition">Nutritional Value</h2>
+                <ul id="nutrilist">
+                    <li>67% fat</li>
+                    <li>20% Carbohydrates</li>
+                    <li>13% Protein</li>
+                    <li>13gms of fiber</li>
+                </ul>
+                    </div>
+                          </div>
+                    </div>
+                    <div class="container-fluid bg-4">
+                <div class="row">
+                    <div class="col-md-4">
+                <h2 id="final">Look For</h2>
+                <p id="finalcon">Look for healthy, compact, uniform, off-white, unshelled nuts that feel heavy in hand. They should be free from cracks other than the natural split, mold, spots, and of rancid smell.</p>
+                    </div>
+                     <div class="col-md-4">
+                <h2 id="final">To Store</h2>
+                <p id="finalcon">Raw, unshelled pistachios can be placed in a cool, dry place for many months.shelled kernels should be placed in an airtight container and kept in the refrigerator in order to prevent them turn rancid.</p>
+                    </div>
+                     <div class="col-md-4">
+                <h2 id="final">To Prepare</h2>
+                <p id="finalcon">The nuts are usually eaten as they are, by splitting them open between fingers or using a nutcracker machine. They can also be enjoyed roasted, salted, or sweetened, just as in macadamia and peanuts.</p>
+                    </div>
+                        </div>
+                    </div>
+        </div>
+                <div class="container-fluid bg-1">
+            <div class="container-fluid bg-2">
+                <img src="cashewnuts.jpg" alt="cashew" id="img1">
+                  <h1 id="apple">Cashews</h1>
+                    </div>
+                    <div class="container-fluid bg-3 text-center">
+                         <h2 id="benifits">Benifits</h2>
+                <ul id="benlist">
+                    <div class="row">
+                        <div class="col-md-6" id="bulletlist1">
+                    <li>Boosts immune system</li>
+                    <li>Helps to maintain good health of bones</li>
+                    <li>Aids in curing cancer</li>
+                        </div>
+                        <div class="col-md-6" id="bulletlist2">
+                    <li>Helps to lower risk of formation of gallstones</li>
+                    <li>Promotes formation of red bood cells</li>
+                    <li>Reduces the risk of anemia and type 2 diabetes</li>
+                        </div>
+                    </div>
+                </ul>
+                    </div>
+                      <div class="container-fluid bg-3">
+                <div class="row">
+                    <div class="col-md-6">
+                <h2 id="what">What are Cashews</h2>
+                <p id="whatcon">Cashews are super nuts belonging to the family of Anacardiaceae, which includes mangoes and pistachios. They are originally native to the coastal areas of north-eastern Brazil. They are kidney-shaped seeds and are widely cultivated in places that have tropical climates. Cashews are grown in countries like India, Sri Lanka, Kenya, and Tanzania. The nuts stick to the bottom of the fruit, known as a cashew apple, and have diverse uses, particularly in Brazil, Asia, and Africa.</p>
+                    </div>
+                    <div class="col-md-6" id="nutricon">
+                <h2 id="nutrition">Nutritional Value</h2>
+                <p id="nutri">1 oz serving of cashews is about 18 whole cashews</p>
+                    <ul id="nutrilist">
+                        <li>31% of copper</li>
+                        <li>23% of manganese</li>
+                        <li>20% of magnesium</li>
+                        <li>17% of phosphorus</li>
+                        <li>10% of iron</li>
+                        <li>8% of selenium</li>
+                        <li>5% of vitamin B6</li>
+                    </ul>
+                    </div>
+                          </div>
+                    </div>
+                    <div class="container-fluid bg-4">
+                <div class="row">
+                    <div class="col-md-4">
+                <h2 id="final"> Look For</h2>
+                <p id="finalcon">When purchasing make sure the cashews are covered, and that the store has good product turnover to maintain freshness.Whether in bulk or packaged, check to make sure there is no evidence of moisture or insects.</p>
+                    </div>
+                     <div class="col-md-4">
+                <h2 id="final">To Store</h2>
+                <p id="finalcon">Store cashews in a cool, dry place in an airtight container to avoid absorption of other food odors. At room temperature, they will not last long, but if you refrigerate them, they can last up to six months. Cashews may also be stored in the freezer for up to one year.</p>
+                    </div>
+                     <div class="col-md-4">
+                <h2 id="final">To Prepare</h2>
+                <p id="finalcon">You can break in two halves or can be eaten directly.</p>
+                    </div>
+                        </div>
+                    </div>
+        </div>
+                <div class="container-fluid bg-1">
+            <div class="container-fluid bg-2">
+                <img src="anjeer.jpg" alt="anjeer" id="img1">
+                 <h1 id="apple">Anjeer/Figs</h1>
+                    </div>
+                <div class="container-fluid bg-3 text-center">
+                    <h2 id="benifits">Benifits</h2>
+                <ul id="benlist">
+                    <div class="row">
+                        <div class="col-md-6" id="bulletlist1">
+                    <li>Aids in weight loss</li>
+                    <li>Protects against asthma</li>
+                    <li>Prevents vision loss</li>
+                    <li>Helps to correct sexual dysfuction</li>
+                    <li>Boosts bone health and avoids urinary calcium loss</li>
+                        </div>
+                        <div class="col-md-6" id="bulletlist2">
+                    <li>Reduces the risk of colon cancer</li>
+                    <li>Prevents constipation and eliminates diarrhea</li>
+                    <li>Regulates sugar absorption in diabetics</li>
+                    <li>Lowers cholestrol and prevents hypertension</li>
+                        </div>
+                    </div>
+                </ul>
+                </div>
+                  <div class="container-fluid bg-3">
+                <div class="row">
+                    <div class="col-md-6">
+                <h2 id="what">What are Figs</h2>
+                <p id="whatcon">The fig tree is a member of the mulberry family, usually found in Asia. The dried form of fig is available almost everywhere, all year round.Figs are also used as a quick and healthy way to gain weight after suffering from an illness.</p>
+                    </div>
+                    <div class="col-md-6" id="nutricon">
+                <h2 id="nutrition">Nitritional Value</h2>
+                <p id="nutri">1 serving = 50 g (1 Medium)</p>
+                <ul id="nutrilist">
+                    <li>Fiber (6%)</li>
+                    <li>Vitamin B6 (4% Recommended Daily Intake per serving)</li>
+                    <li>Copper(3% per serving)</li>
+                    <li>Potassium(3% per serving)</li>
+                    <li>Manganese(3% per serving)</li>
+                    <li>Pantothenic Acid(3% per serving)</li>
+                </ul>
+                    </div>
+                      </div>
+                </div>
+                <div class="container-fluid bg-4">
+                <div class="row">
+                    <div class="col-md-4">
+                <h2 id="final">Look For</h2>
+                <p id="finalcon"> Look for figs that have a rich, deep color and are plump and tender, but not mushy.Smelling figs can also give you clues into their freshness and taste.</p>
+                    </div>
+                     <div class="col-md-4">
+                <h2 id="final">To Store</h2>
+                <p id="finalcon">Ripe figs should be kept in the refrigerator where they will stay fresh for about two days. Since they have a delicate nature and can easily bruise, you should store them either arranged on a paper towel-lined plate or shallow container. They should be covered or wrapped in order to ensure that they do not dry out, get crushed or pick up odors from neighboring foods.</p>
+                    </div>
+                     <div class="col-md-4">
+                <h2 id="final">To Prepare</h2>
+                <p id="finalcon">Before eating or cooking figs, wash them under cool water and then gently remove the stem. Gently wipe dry.Dried figs can simply be eaten, used in a recipe as is, or simmered for several minutes in water or fruit juice to make them plumper and juicier.</p>
+                    </div>
+                    </div>
+                </div>
+        </div>
+                <div class="container-fluid bg-1">
+            <div class="container-fluid bg-2">
+                <img src="Raisins5.jpg" alt="raisins" id="img1">
+                <h1 id="apple">Raisins</h1>
+                </div>
+                    <div class="container-fluid bg-3 text-center">
+                        <h2 id="benifits">Benifits</h2>
+                <ul id="benlist">
+                    <div class="row">
+                        <div class="col-md-6" id="bulletlist1">
+                    <li>Reduces blood pressure</li>
+                    <li>Helps in bones formation and calcium absorption</li>
+                    <li>Aids in curing cancer</li>
+                    <li>Keep a check on acidosis</li>
+                        </div>
+                        <div class="col-md-6" id="bulletlist2">
+                    <li>Promotes good cardiac health</li>
+                    <li>Aid in healthy and weight gain</li>
+                    <li>Modulate sugar levels in diabetics</li>
+                    <li>Helps in treating fever and anemia</li>
+                    <li>Protect eyes and teeth infections</li>
+                        </div>
+                    </div>
+                </ul>
+                    </div>
+                      <div class="container-fluid bg-3">
+                <div class="row">
+                    <div class="col-md-6">
+                <h2 id="what">What are Raisins</h2>
+                <p id="whatcon">Raisins are obtained by drying grapes, either in the sun or in driers, which turns the grapes into golden, green or black gems. These delicacies are everyone’s favorites, particularly children. They are widely used in cultural cooking around the world (especially in desserts) and are also added to health tonics, snacks, and compact, high-energy food supplements for mountaineers, backpackers, and campers.</p>
+                    </div>
+                    <div class="col-md-6" id="nutricon">
+                <h2 id="nutrition">Nutritional Value</h2>
+                <p id="nutri">1 serving of 100g raisins</p>
+                    <ul id="nutrilist">
+                        <li>10% of fiber</li>
+                        <li>23% of iron</li>
+                        <li>749mg of Potassium</li>
+                    </ul>
+                    </div>
+                          </div>
+                    </div>
+                    <div class="container-fluid bg-4">
+                <div class="row">
+                    <div class="col-md-4">
+                <h2 id="final">Look For</h2>
+                <p id="finalcon">Buy raisins that are full-fleshed, and plump in appearance. It is perfect to have fine wrinkles. Avoid old stocks as well as those with excess moisture, mold, or affected by sunburn, scars, insect injury, mechanical injury, which may seriously affect their appearance, edibility, and keeping-quality.</p>
+                    </div>
+                     <div class="col-md-4">
+                <h2 id="final">To Store</h2>
+                <p id="finalcon">They stay well when stored in airtight containers and placed away from moisture, humidity, sunlight and high temperature. They can also be stored in the refrigerator.</p>
+                    </div>
+                     <div class="col-md-4">
+                <h2 id="final">To Prepare</h2>
+                <p id="finalcon">You can eat directly.</p>
+                    </div>
+                        </div>
+                    </div>
+                    </div>
+                <div class="container-fluid bg-1">
+            <div class="container-fluid bg-2">
+                <img src="Walnut2.jpg" alt="walnut" id="img1">
+                <h1 id="apple">Walnuts</h1>
+                    </div>
+                    <div class="container-fluid bg-3 text-center">
+                         <h2 id="benifits">Benifits</h2>
+                <ul id="benlist">
+                    <div class="row">
+                        <div class="col-md-6" id="bulletlist1">
+                    <li>Prevents coronary heart diseases</li>
+                    <li>Helps in bones health</li>
+                    <li>Aids in improving metabolism in body</li>
+                        </div>
+                        <div class="col-md-6" id="bulletlist2">
+                    <li>Prevents growth of cancerous cells</li>
+                    <li>Benifical in reducing diabetics</li>
+                    <li>Helps to alleviate mood of children and adults</li>
+                        </div>
+                    </div>
+                </ul>
+                    </div>
+                      <div class="container-fluid bg-3">
+                <div class="row">
+                    <div class="col-md-6">
+                <h2 id="what">What are Walnuts</h2>
+                <p id="whatcon">Walnuts are edible seeds from the trees of Juglans genus. They are round, single-seeded fruits of the walnut tree. The fruit and seed of walnut are enclosed in a thick, inedible husk. The shell of the fruit that encloses the kernel is hard and two-halved.Walnuts have always been considered as ‘brain food’, perhaps because the surface structure of the walnut has a crinkly appearance like that of the brain.</p>
+                    </div>
+                    <div class="col-md-6" id="nutricon">
+                <h2 id="nutrition">Nutritional Value</h2>
+                <p id="nutri">1 serving of 100g walnuts</p>
+                    <ul id="nutrilist">
+                        <li>15.2 g of protein</li>
+                        <li>13.7 g of carbohydrates</li>
+                        <li>2.6 g of sugar</li>
+                        <li>6.7 g of fiber</li>
+                        <li>65.2 g of fat</li>
+                    </ul>
+                    </div>
+                          </div>
+                    </div>
+                    <div class="container-fluid bg-4">
+                <div class="row">
+                    <div class="col-md-4">
+                <h2 id="final">Look For</h2>
+                <p id="finalcon">Shelled nuts should be brittle and snap easily.</p>
+                    </div>
+                     <div class="col-md-4">
+                <h2 id="final">To Store</h2>
+                <p id="finalcon">It is best to buy unshelled nuts and place them in the refrigerator for two to three months or freeze up to one year.Shelled walnuts should be kept refrigerated in an airtight container, lasting up to six months, and may be frozen up to a year.</p>
+                    </div>
+                     <div class="col-md-4">
+                <h2 id="final">To Prepare</h2>
+                <p id="finalcon">You can eat directly.</p>
+                    </div>
+                        </div>
+                    </div>
+                    </div>
+        <footer>
+            <nav>
+                <ul class="details">
+                    <li class="list"><a id="foot" href="aboutme.html">About Me</a></li>
+                    <li class="list"><a id="foot" href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div id="demo1">
+                <p class="demo">Copyright &copy 2018 produce for better health .  All Rights Reserved</p>
+                <a href="#"><img src="facebook.jpg" alt="hello" id="pic"></a>
+                <a href="#"><img src="instagram.jpg" alt="hello" id="pic1"></a>
+                <a href="#"><img src="twitterl.jpg" alt="hello" id="pic2"></a>
+            </div>
+        </footer>
+    </body>
+        </html>

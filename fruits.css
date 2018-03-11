@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700');
+@import url('https://fonts.googleapis.com/css?family=Abel');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+@import url('https://fonts.googleapis.com/css?family=Raleway:300i,500');
+body{
+    margin: 0px;
+    overflow-x: hidden;
+}
+#navbar{
+    margin: 0px;
+    padding: 0px;
+    height: 75px;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    color: green;
+}
+#container{
+    margin: 0px;
+    height: 75px;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    padding:10px 8px 10px 15px;
+}
+.logo{
+    margin:0px;
+    float:left;
+    height: 60px;
+    padding: 5px 4px 10px 30px;
+}
+#head{
+    color: green;
+    float:left;
+    margin: 0px; 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    padding: 0px 15px 15px 5px;
+}
+#h2{
+    padding: 17px 15px 15px 5px; 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color: green;
+    float:left;
+    margin: 0px;
+}
+#bodylist li
+{
+    display: inline;
+    float:left;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color:green;
+    padding:10px 8px 10px 15px;
+}
+#link{
+    text-decoration: none;
+    padding: 10px 8px 10px 15px;
+    color:green;
+}
+#link:hover{
+    color:orangered;
+    padding :10px 8px 10px 15px;
+}
+.bg-1{
+    background-color: #fdff00;
+    padding-top: 80px;
+    padding-bottom: 25px;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+}
+h1{
+    font-size: 40px;
+}
+.bg-2{
+    background-color: #00d2ff;
+    padding: 30px;
+}
+#img1{
+    width: 400px;
+    height: 300px;
+    display: inline;
+    padding-top: 70px;
+    padding-bottom: 0px;
+}
+#help{
+    display: inline;
+    padding-top: 2px;
+    margin-left: 2px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    color: black;
+}
+#helpcon{
+    text-align: center;
+    font-family: 'Slabo 27px', serif;
+    font-size: 20px;
+    color: white;
+    padding-top: 80px;
+}
+.bg-3{
+    background-color:#00d2ff;
+  padding: 25px;
+}
+#classification{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    color: black;
+}
+#bullet{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
+#content{
+    font-family: 'Slabo 27px', serif;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+.bg-4{
+    background-color: #00d2ff;
+    padding: 25px;
+}
+#weight{
+    display: inline;
+    padding-top: 2px;
+    margin-left: 2px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    color: black;
+    
+}
+#weightcon{
+    text-align: center;
+    font-family: 'Slabo 27px', serif;
+    font-size: 20px;
+    color: white;
+    padding-top: 80px;
+}
+#img2{
+    width: 400px;
+    height: 300px;
+    display: inline;
+    padding-top: 70px;
+    padding-bottom: 0px;
+}
+.bg-5{
+    background-color: #00d2ff;
+    padding: 25px;
+}
+#acne{
+    display: inline;
+    padding-top: 2px;
+    margin-left: 2px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    color: black;
+    
+}
+#acnecon{
+    text-align: center;
+    font-family: 'Slabo 27px', serif;
+    font-size: 20px;
+    color: white;
+    padding-top: 80px;
+}
+#img3{
+    width: 400px;
+    height: 300px;
+    display: inline;
+    padding-top: 70px;
+    padding-bottom: 0px;
+}
+.bg-6{
+   background-color: #00d2ff;
+    padding: 25px;
+}
+#hairhealthy{
+    display: inline;
+    padding-top: 2px;
+    margin-left: 2px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    color:black;
+    
+}
+#haircon{
+    text-align: center;
+    font-family: 'Slabo 27px', serif;
+    font-size: 20px;
+    color: white;
+    padding-top: 80px;
+}
+#img4{
+    width: 400px;
+    height: 300px;
+    display: inline;
+    padding-top: 70px;
+    padding-bottom: 0px;
+}
+/*#p3{
+    color: black;
+    text-align: inherit;
+}
+#p2{
+    text-align: justify;
+    padding-bottom: 30px;
+}*/
+.bg-7{
+    padding: 25px;
+    background-color: #00d2ff;
+}
+#h32{
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    color: black;
+}
+#hair{
+    font-family: 'Abel', serif;
+    font-size: 20px;
+    color: white;
+    padding-left: 30px;
+    list-style-type: none;
+    text-align: center;
+}
+#p32{
+    font-family: 'Slabo 27px', serif;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 5px;
+    color: white;
+}
+.bg-8{
+   background-color: #00d2ff;
+    padding: 25px;
+}
+#things{
+    display: inline;
+    padding-top: 2px;
+    margin-left: 2px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    color: black;
+    
+}
+#thingscon{
+    text-align: center;
+    font-family: 'Slabo 27px', serif;
+    font-size: 20px;
+    color: white;
+    padding-top: 70px;
+    padding-bottom: 0px;
+}
+#img5{
+    width: 400px;
+    height: 300px;
+    display: inline;
+    padding-top: 70px;
+    padding-bottom: 0px;
+}
+#last{
+    text-align: center;
+    font-family:'Abel', sans-serif;
+    font-size: 30px;
+    background-color: #00d2ff;
+    padding-bottom: 0px;
+    margin: 0px;
+}
+#fruits{
+    list-style-type: none;
+    background-color: #00d2ff;
+}
+footer{
+    background-color: rgba(0,0,0,0.7);
+    height: 15%;
+    margin-bottom:-10px;
+    padding: 0px;
+}
+#demo1{
+    padding: 15px 15px 15px 10px;
+    margin-left: 25px;
+}
+.demo{
+    padding: 15px 15px 15px 10px;
+    color:whitesmoke;
+    margin: 0px;
+    text-align: center;
+}
+.details{
+    list-style-type: none;
+    float:left;
+    padding:18px 5px 8px 8px;
+    display: inline;
+}
+#foot{
+    color:aliceblue;
+    margin: 0px;
+}
+#foot:hover{
+    text-decoration: none;
+    color:cadetblue;
+    margin-bottom: 0px;
+}
+.list{
+    display: inline;
+    font-family:'Montserrat', sans-serif;
+    font-size: 18px;
+    color:white;
+    padding:15px 20px;
+    margin-bottom: 0px;
+}
+#pic{
+    float:right;
+    width: 25px;
+    height: 25px;
+    margin-top: -25px;
+    margin-right: 90px;
+}
+#pic1{
+    float:right;
+    width: 25px;
+    height: 25px;
+    margin-top: -25px;
+    margin-right: 50px;
+}
+#pic2{
+    float:right;
+    width: 25px;
+    height: 25px;
+    margin-top: -25px;
+    margin-right: 10px;
+}

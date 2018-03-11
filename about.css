@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700');
+@import url('https://fonts.googleapis.com/css?family=Abel');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+@import url('https://fonts.googleapis.com/css?family=Raleway:300i,500');
+body{
+    margin: 0px;
+    overflow-x: hidden;
+}
+#navbar{
+    margin: 0px;
+    padding: 0px;
+    height: 75px;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    color: green;
+}
+#container{
+    margin: 0px;
+    height: 75px;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    padding:10px 8px 10px 15px;
+}
+.logo{
+    margin:0px;
+    float:left;
+    height: 60px;
+    padding: 5px 4px 10px 30px;
+}
+#head{
+    color: green;
+    float:left;
+    margin: 0px; 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    padding: 0px 15px 15px 5px;
+}
+#h2{
+    padding: 17px 15px 15px 5px; 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color: green;
+    float:left;
+    margin: 0px;
+}
+ul li
+{
+    display: inline;
+    float:left;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color:green;
+    padding:10px 8px 10px 15px;
+}
+#link{
+    text-decoration: none;
+    padding: 10px 8px 10px 15px;
+    color:green;
+}
+#link:hover{
+    color:orangered;
+    padding :10px 8px 10px 15px;
+}
+.bg-1{
+    background-color:#fdff00;
+    padding-top: 100px;
+    padding-bottom: 35px;
+}
+h1{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    display: inline;
+    color: black;
+    padding: 50px 20px 30px 5px;
+}
+.bg-4{
+    background-color: black;
+    color:white;
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+#img{
+    display: inline;
+}
+h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    color: whitesmoke;
+    padding-bottom: 60px;
+}
+#img1{
+    width: 400px;
+    height: 400px;
+    display: inline;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-left: 50px;
+    float: left;
+}
+#p1{
+    color:white;
+    font-family: 'Slabo 27px',serif;
+    font-size: 20px;
+    padding-top: 140px;
+    text-align: center;
+}
+.bg-2{
+    background-color:  #00d2ff;
+    color: white;
+    padding-bottom: 50px;
+}
+#img2{
+    width: 400px;
+    height: 400px;
+    display: inline;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-right: 50px;
+    float: right;
+}
+#p2{
+    color:white;
+    font-family: 'Slabo 27px',serif;
+    font-size: 20px;
+    padding-top: 140px;
+    text-align: center;
+}
+.bg-3{
+    background-color:  #00d2ff;
+    color: white;
+}
+#img3{
+    width: 400px;
+    height: 400px;
+    display: inline;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-left: 50px;
+    float: left;
+}
+#p3{
+    color:white;
+    font-family: 'Slabo 27px',serif;
+    font-size: 20px;
+    padding-top: 140px;
+    text-align: center;
+}
+.bg-5{
+    background-color: #00d2ff;
+    color: white;
+}
+footer{
+    background-color: rgba(0,0,0,0.7);
+    height: 15%;
+    margin-bottom:-10px;
+}
+#demo1{
+    padding: 15px 15px 15px 10px;
+    margin-left: 25px;
+}
+.demo{
+    padding: 15px 15px 15px 10px;
+    color:whitesmoke;
+    margin: 0px;
+    text-align: center;
+}
+.details{
+    list-style-type: none;
+    float:left;
+    padding:7px 5px 8px 8px;
+    display: inline;
+}
+#foot{
+    color:aliceblue;
+    margin-bottom: 0px;
+}
+#foot:hover{
+    text-decoration: none;
+    color:cadetblue;
+    margin-bottom: 0px;
+}
+.list{
+    display: inline;
+    font-family:'Montserrat', sans-serif;;
+    font-size: 18px;
+    color:white;
+    padding:15px 10px;
+    margin-bottom: 0px;
+}
+#pic{
+    float:right;
+    width: 25px;
+    height: 25px;
+    margin-top: -25px;
+    margin-right: 90px;
+}
+#pic1{
+    float:right;
+    width: 25px;
+    height: 25px;
+    margin-top: -25px;
+    margin-right: 50px;
+}
+#pic2{
+    float:right;
+    width: 25px;
+    height: 25px;
+    margin-top: -25px;
+    margin-right: 10px;
+}
